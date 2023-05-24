@@ -1,3 +1,5 @@
+Este es un proyecto en solitario que forma parte de la asignación de un proyecto individual para HENRY
+
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
 # **FOOD** | Proyecto Individual
