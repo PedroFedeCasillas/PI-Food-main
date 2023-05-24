@@ -1,0 +1,28 @@
+.SearchBarCont{
+    display: flex;
+    flex-direction: row;
+    padding-right: 100px;
+   
+}
+
+.InputBar{
+    padding: 7px;
+    width: 100%;
+    border: 1px solid #F18817;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.SearchBtn{
+    background-color: #F18817;
+    color: white;
+    font-weight: 600;
+    font-size: 80%;
+    padding: 1% 2%;
+    border: 1px solid #F18817;
+    border-radius: 0px 5px 5px 0px;
+    &:hover {
+        color: black;
+        background-color: #F1E217;
+        border-color: #F1E217;
+    }
+}

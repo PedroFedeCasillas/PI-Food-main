@@ -1,0 +1,134 @@
+.home {
+   background-color: #adb8ae;  
+   overflow: hidden;
+} 
+
+
+.filtersCont {
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+
+.filter1, .filter2, .filter3{
+    width: 15%;
+    border: 1px solid #F18817;
+    border-radius: 3px;
+    color: rgb(90, 90, 90);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 110%;
+    font-weight: 500;
+    margin: 20px;
+    padding: 100x;
+}
+
+.getAllBtn {
+    background-color: #F18817;
+    border-radius: 5px;
+    border-color: #F18817;
+    color: white;
+    font-weight: 600;
+    font-size: 80%;
+    padding: 1% 2%;
+    
+}
+
+.getAllBtn:hover{
+    color: black;
+    background-color: #F1E217;
+    border-color: #F1E217;  
+}
+
+
+.contenRecipes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.loadingCoontainer {
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20%;
+}
+
+.loaderGif {
+    border-radius: 10px;
+    margin-top: 20%;
+    width: 200px;
+}
+
+.loader {
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 180%;
+    font-weight: 600;
+}
+
+.eContainer {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20%;
+}
+
+.error{
+    color: #F18817;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 180%;
+    font-weight: 600;
+    padding-inline: 30px 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .filtersCont {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .filter1, .filter2, .filter3 {
+        width: 80%;
+        font-size: 100%;
+    }
+    
+    .getAllBtn {
+        margin-top: 5%;
+        margin-bottom: 2%;
+        padding: 2% 4%;
+    }
+    
+    .recipes {
+        padding: 5px;
+    }
+    
+    .lContainer, .eContainer {
+        margin: 10%;
+    }
+    
+    .loaderGif {
+        margin-top: 10%;
+        width: 150px;
+    }
+    
+    .loader, .error {
+        font-size: 120%;
+        padding-inline: 10px 10px;
+    }
+}

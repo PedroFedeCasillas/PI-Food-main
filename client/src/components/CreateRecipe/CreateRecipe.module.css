@@ -1,0 +1,185 @@
+
+.createCont {
+    background-color: #c8cce8;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.createForm {
+    background-color: #636c90;
+    border: 5px solid #0c1d3c;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 90%;
+    margin: 30px;
+    padding-inline: 25px 25px;
+}
+
+.createTitle {
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 180%;
+}
+
+.formCont {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputCont {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.inputTitle {
+    display: inline-block;
+    width: 150px;
+    color: rgb(255, 249, 249);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+}
+
+.inputArea {
+    color: rgb(45, 96, 18);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    border: 1px solid #F18817;
+    border-radius: 3px;
+    width: 300px;
+}
+
+.checkboxSpan {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #F18817;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 90%;
+    margin-bottom: -20px;
+}
+
+.inputCheckbox {
+    margin-right: 0.5rem;
+    accent-color: #F18817;
+}
+
+.checkboxItems {
+    color: #F18817;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 90%;
+}
+
+.errorsCont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+    margin-bottom: 3%;
+}
+
+.inputError {
+    background-color: #ccc;
+    border: 1px solid red;
+    border-radius: 4px;
+    color: #ff0000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+.btnCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.createBtn {
+    background-color: #F18817;
+    border-radius: 5px;
+    border-color: #F18817;
+    color: white;
+    font-weight: 600;
+    font-size: 100%;
+    padding: 2% 5%;
+}
+
+.createBtn:hover {
+    color: black;
+    background-color: #F1E217;
+    border-color: #F1E217; 
+}
+
+.createBtn:disabled,
+.createBtn[disabled]{
+  border: 1px solid #F18817;
+  background-color: #FDBB74;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .createPage {
+        margin: 0;
+    }
+
+
+    .createCont {
+        background-color: red;
+       
+    }
+
+    .createForm {
+        width: 80%;
+        margin-right: 80px;
+        
+    }
+  
+    .createTitle {
+        font-size: 150%;
+    }
+  
+    .inputTitle {
+        width: 40%;
+    }
+  
+    .inputArea {
+        width: 100%;
+    }
+  
+    .imageArea {
+        width: 100%;
+    }
+  
+    .checkboxSpan {
+        font-size: 80%;
+        margin-bottom: 5px;
+    }
+  
+    .errorsCont {
+        margin-top: 5%;
+        margin-bottom: 1%;
+    }
+  
+    .inputError {
+        font-size: 80%;
+    }
+  
+    .createBtn {
+        font-size: 80%;
+        padding: 2% 5%;
+        margin: 3% 0px;
+    }
+}

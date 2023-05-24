@@ -1,0 +1,165 @@
+.DetailPage{
+    background-color: #adb8ae;  
+
+    display: flex;
+    flex-direction: column;
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+}
+
+.DetailCont{
+    background-color: #ccc;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-inline: 25px 25px;
+
+    @media only screen and (max-width: 600px) {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 5%;
+        border-radius: 0px;
+        padding: 10px;
+    }
+}
+
+.TitleImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    @media only screen and (max-width: 600px) {
+        margin-bottom: 10px;
+    }
+}
+
+.RecipeName {
+    color: #F18817;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 130%;
+    font-weight: 600;
+    text-align: center;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 110%;
+    }
+}
+
+.InfoBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+    @media only screen and (max-width: 600px) {
+        margin-bottom: 10px;
+        padding: 5%;
+    }
+}
+    
+
+
+ .InfoName {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #F18817;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: -10px;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 90%;
+    }
+ }
+    
+
+
+.InfoContent{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 110%;
+    font-weight: 500;
+    text-align: left;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 100%;
+    }
+}
+ 
+
+
+.BackBtn{
+    background-color: #F18817;
+    border-radius: 5px;
+    border-color: #F18817;
+    color: white;
+    font-weight: 600;
+    font-size: 80%;
+    padding: 1% 2%;
+    margin-top: 5%;
+    &:hover {
+        color: black;
+        background-color: #F1E217;
+        border-color: #F1E217; 
+    }
+
+    @media only screen and (max-width: 600px) {
+        font-size: 90%;
+        padding: 2% 5%;
+    }
+}
+   
+
+
+.LoaderCont{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20%;
+
+    @media only screen and (max-width: 600px) {
+        margin: 10%;
+    }
+}
+  
+
+
+.LoaderGif{
+    margin-top: 20%;
+    width: 200px;
+
+    @media only screen and (max-width: 600px) {
+        width: 150px;
+        margin-top: 10%;
+    }
+}
+  
+
+
+.Loader{
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 180%;
+    font-weight: 600;
+
+    @media only screen and (max-width: 600px) {
+        font-size: 130%;
+    }
+}
+   
+
+    

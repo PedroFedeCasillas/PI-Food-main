@@ -1,0 +1,62 @@
+.RecipeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    width: 20rem;
+    height: 90%;
+    border: white;
+    border-radius: 10px;
+    background-color: white;
+    transition: transform 0.2s ease-in-out;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.NameImageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-inline: 8px 5px;
+}
+
+.Link{
+    text-decoration: none;
+}
+
+.RecipeName{
+    color: #F18817;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 110%;
+    font-weight: 500;
+    text-align: center;
+    &:hover {
+        color: black;
+    }
+}
+
+.InfoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.InfoName{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #F18817;
+    font-weight: 400;
+}
+
+.InfoContent{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 110%;
+    font-weight: 500;
+    text-align: center;
+}
